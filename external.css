@@ -1,0 +1,45 @@
+	body
+	{
+		background-color:pink;
+	}
+	.h1
+	{
+		font-family:"Architects Daughter", cursive;
+	}
+	.h2
+	{
+		font-family:'Kaushan Script', cursive;
+	}
+	.para1
+	{
+		font-size:2.1em;
+		font-weight:bold;
+		font-family:fanatsy;
+		color:red;
+
+	}
+	.para2
+	{
+		font-size:2.1em;
+		font-weight:bold;
+		font-family:sans-serif;
+		background-color: red;
+
+	}
+	.para3
+	{
+		font-size:2.1em;
+		font-weight:thin;
+		font-family:sans-serif;
+		font-style:italic;
+
+	}
+	.para4
+	{
+		font-size:-1.1em;
+		font-weight:thin;
+		font-family:cursive;
+		font-style:oblique;
+
+	}
+	

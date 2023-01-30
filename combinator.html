@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Combinator</title>
+</head>
+<style type="text/css">
+	/*.parent{
+		color:red;
+	}*/
+	/*descendant*/
+	.demo p{
+		color:red;
+
+	}
+	/* descendant */
+	.demo div{
+		color:yellow;
+
+	}
+	/* child selector */
+	.demo>p{
+		color:green;
+
+	}
+	.demo+h2{
+		color:blue;
+
+	}
+	.demo~p{
+		color:pink;
+
+	}
+
+</style>
+<body style="font-size:2em">
+
+	<!-- <section class="parent">
+		<p>Hello</p>
+		<h1>What Happened?</h1>
+		<span> How are you?</span>
+		
+	</section> -->
+	<section class="demo">
+		<p>This is para1 ,child to section</p>
+		<p>This is para2 ,child to section</p>
+		<div>
+			<p>This is a para ,child to div and grandchild to section</p>
+			<h4>This is a H4 tag ,child to div and grandchild to section</h4>
+			<h3>This is a H3 tag ,child to div and grandchild to section</h3>
+		</div>
+		<p>This is para3 ,child to section</p>
+	</section>
+	<h2> This is h2 tag,immediate to section, NOT a child or grandchild</h2>
+	<p>This is para4,NOT immediate to section NOT a child or grandchild</p>
+	<h2> This is h2 tag,NOT immediate to section, NOT a child or grandchild</h2>
+	<p>This is para5,NOT immediate to section NOT a child or grandchild</p>
+</body>
+</html>
